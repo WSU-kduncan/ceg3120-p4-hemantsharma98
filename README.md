@@ -24,6 +24,14 @@ In this Project, I used docker to create image and store it into a container. Mo
 You can also see the docker icon on the right hand side of the taskbar. If it's running then there is no problem just login into your account. 
 
 ### How to build the container:
+1)Create a file named Dockerfile.
+
+2)Add instuctions in a Dockerfile.
+
+3)Build Dockerfile to create a image with the command "docker build [OPTIONS] PATH | URL | -". I had used the command "docker build -t hemantimage1:serv1 .".
+
+4)Create a container with the command "docker create --name [container name] [OPTIONS] [ImageName:Tag]". I had used command "docker create --name container1 -p 80:80 hemantimage1:serv1".
+
 
 ## Configure AWS CLI:
 
