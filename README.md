@@ -39,6 +39,9 @@ OR
 
 You can just start the container using the command "docker start [container name]". Like I had used "docker start container1" to start my container.
 
+### How to view the project:
+Open your browser and go to ip and port "localhost:80".
+
 ## Configure AWS CLI:
 
 ## Create ECR:
