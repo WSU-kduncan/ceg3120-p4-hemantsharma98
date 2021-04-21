@@ -32,6 +32,12 @@ You can also see the docker icon on the right hand side of the taskbar. If it's 
 
 4)Create a container with the command "docker create --name [container name] [OPTIONS] [ImageName:Tag]". I had used command "docker create --name container1 -p 80:80 hemantimage1:serv1".
 
+### How to run the container:
+You can run the docker container using the command "docker run [OPTIONS] IMAGE [COMMAND] [ARG...]".
+
+OR
+
+You can just start the container using the command "docker start [container name]". Like I had used "docker start container1" to start my container.
 
 ## Configure AWS CLI:
 
