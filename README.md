@@ -82,3 +82,28 @@ I have created 2 secrets :
 
 ## Configure GitHub Workflow:
 
+From your repository on GitHub, create a new file in the .github/workflows directory named [workflowfileName.yml].
+    
+    NOTE:Workflow file has a extension .yml
+
+I created my workflow file in .github directory with the name "workflow.yml". Followings are variables to change:
+
+name
+
+AWS_REGION
+
+ECR_REPOSITORY
+
+CONTAINER_NAME
+
+aws-access-key-id (Will be taken automatically from secrets)
+
+aws-secret-access-key (Will be taken automatically from secrets)
+
+aws-region
+
+ECR_REGISTRY
+
+IMAGE_TAG
+
+run
