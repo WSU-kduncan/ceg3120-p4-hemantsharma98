@@ -77,6 +77,7 @@ My repository name = ceg3120/hemantsharmarepo.
 I have created 2 secrets :
 
 "AWS_ACCESS_KEY_ID" = To store the access key id which I used to configure in AWS CLI.
+
 "AWS_SECRET_ACCESS_KEY" = To store the secret access key which I used to configure in AWS CLI.
 
 ## Configure GitHub Workflow:
