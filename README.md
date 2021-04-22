@@ -43,6 +43,13 @@ You can just start the container using the command "docker start [container name
 Open your browser and go to ip and port "localhost:80".
 
 ## Configure AWS CLI:
+1)Download AWS CLI Intaller from https://aws.amazon.com/cli/.
+
+2)Run the downloaded MSI installer or the setup file and follow the instructions.
+
+3)To confirm the installation, use the "aws --version" on your cmd.
+
+4)Configure your AWS IAM user with admin credentials using the command "aws configure" and type your "AWS Access Key Id", "AWS Secret Access Key", "Default Region Name" and "Default output format". All of these provided by your AWS IAM user.
 
 ## Create ECR:
 
