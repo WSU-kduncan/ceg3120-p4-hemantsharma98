@@ -52,6 +52,15 @@ Open your browser and go to ip and port "localhost:80".
 4)Configure your AWS IAM user with admin credentials using the command "aws configure" and type your "AWS Access Key Id", "AWS Secret Access Key", "Default Region Name" and "Default output format". All of these provided by your AWS IAM user.
 
 ## Create ECR:
+You can create Elastic Container Registry(ECR) using the command:
+
+"aws ecr create-repository --repository-name [Repository Name] --region [Configured Region]".
+    
+I have created ECR using the command:
+
+"aws ecr create-repository --repository-name ceg3120/hemantsharmarepo --region us-east-1" 
+
+My repository name = ceg3120/hemantsharmarepo.
 
 ## Configure GitHub Secrets:
 
