@@ -51,6 +51,13 @@ Open your browser and go to ip and port "localhost:80".
 
 4)Configure your AWS IAM user with admin credentials using the command "aws configure" and type your "AWS Access Key Id", "AWS Secret Access Key", "Default Region Name" and "Default output format". All of these provided by your AWS IAM user.
 
+AWS IAM User Credentials I used:
+
+AWS Access Key Id = AKIATMNUEADG7H6GCRLY
+
+AWS Secret Access Key = gmUw5pcUr99GQRC8U8CwND9QLKZBtSRsstNBUY+R
+
+
 ## Create ECR:
 You can create Elastic Container Registry(ECR) using the command:
 
@@ -76,9 +83,9 @@ My repository name = ceg3120/hemantsharmarepo.
 
 I have created 2 secrets :
 
-"AWS_ACCESS_KEY_ID" = To store the access key id which I used to configure in AWS CLI(AWS IAM user credential).
+"AWS_ACCESS_KEY_ID" = To store the access key id. Value = AKIATMNUEADG7H6GCRLY.
 
-"AWS_SECRET_ACCESS_KEY" = To store the secret access key which I used to configure in AWS CLI(AWS IAM user credential).
+"AWS_SECRET_ACCESS_KEY" = To store the secret access key. Value = gmUw5pcUr99GQRC8U8CwND9QLKZBtSRsstNBUY+R..
 
 ## Configure GitHub Workflow:
 
