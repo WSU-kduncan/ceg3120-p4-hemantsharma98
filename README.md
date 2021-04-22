@@ -64,5 +64,20 @@ My repository name = ceg3120/hemantsharmarepo.
 
 ## Configure GitHub Secrets:
 
+1)On GitHub, navigate to the main page of the repository. Under your repository name, click Settings.
+
+2)In the left sidebar, click Secrets.
+
+3)Click New repository secret.
+
+4)Type a name of the secret and secret value.
+
+5)Click Add secret.
+
+I have created 2 secrets :
+
+"AWS_ACCESS_KEY_ID" = To store the access key id which I used to configure in AWS CLI.
+"AWS_SECRET_ACCESS_KEY" = To store the secret access key which I used to configure in AWS CLI.
+
 ## Configure GitHub Workflow:
 
