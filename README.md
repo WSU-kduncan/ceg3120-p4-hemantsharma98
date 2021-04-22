@@ -114,3 +114,14 @@ ECR_REGISTRY
 IMAGE_TAG
 
 run
+
+## Docker Pull (Extra Credit):
+You can pull images from docker hub repository using the command "docker pull [options] [ImageName]".
+
+Please note: A repository can contain multiple images. To pull all images from a repository, provide the -a (or --all-tags ) option when using docker pull.
+
+I have pulled the image hello-world with latest tag from library repository which is public. Using the command "docker pull hello-world".
+
+There is no requirement to pull image from public repository just pull it using the command mention above. On the other hand, you need to have a Kubernetes cluster, and the kubectl command-line tool must be configured to communicate with your cluster.
+
+You can run the image using the command "docker run hello-world:latest".
